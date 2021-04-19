@@ -31,6 +31,7 @@ INSERT INTO people (name) VALUES ('Crusty the Clown');
 INSERT INTO people (name) VALUES ('Montgomery Burns');
 INSERT INTO people (name) VALUES ('Mayor Joe Quimby');
 INSERT INTO people (name) VALUES ('Groundskeeper Willie');
+INSERT INTO people (name) VALUES ('Bart Simpson');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '17:00');
 INSERT INTO movies (title, year, show_time) VALUES ('The Incredible Hulk', 2008, '23:55');
@@ -62,3 +63,4 @@ SELECT name FROM people;
 SELECT 'Homer Simpson' FROM people;
 DELETE FROM movies WHERE title = 'Batman Begins';
 SELECT * FROM movies;
+SELECT * from people;
